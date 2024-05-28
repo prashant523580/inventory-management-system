@@ -1,12 +1,11 @@
 import React from 'react'
 import DashboardHeader from '../dashboard/Header'
+import Sidebar from './Sidebar'
 
 function DashboardMainLayout({children} : {children: React.ReactNode}) {
   return (
     <div className="flex">
-    <div className="sidebar h-screen bg-gray-800 text-white w-64">
-        sidebar
-    </div>
+    <Sidebar/>
     <main className="children w-full">
         <DashboardHeader/>
         {children}

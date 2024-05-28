@@ -6,8 +6,8 @@ export default function Home() {
     <div className="flex items-center flex-col justify-center h-screen ">
           <h2>Inventory Management System</h2>
 
-          <Link href={"/admin/home"}>Home</Link>
-          <Link href={"/admin/home/dashboard"}>Dashboard</Link>
+          <Link href={"/dashboard/home"}>Home</Link>
+          {/* <Link href={"/admin/home/dashboard"}>Dashboard</Link> */}
     </div>
   )
 }
